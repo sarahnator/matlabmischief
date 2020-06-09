@@ -15,6 +15,6 @@ imgThresh  = imbinarize(imgGray,level);
 colorOps = {'jet', 'autumn', 'bone','colorcube', 'cool', 'copper', 'flag','gray', 'hot', 'lines', 'parula', 'pink', 'prism', 'spring','summer', 'winter'};
 
 op = string(colorOps(randi(size(colorOps,2))));
-color_map = colormap(op);
-imgCm = imtool(imgThresh, 'Colormap', color_map);
-imshow(imgCm);
+imshow(imgThresh); 
+colormap(colormap(op));
+
