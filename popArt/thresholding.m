@@ -17,4 +17,5 @@ colorOps = {'jet', 'autumn', 'bone','colorcube', 'cool', 'copper', 'flag','gray'
 op = string(colorOps(randi(size(colorOps,2))));
 imshow(imgThresh); 
 colormap(colormap(op));
-
+fig = gcf;
+exportgraphics(fig, 'out.png');
