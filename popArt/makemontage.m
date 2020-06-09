@@ -9,7 +9,7 @@ mont = montage(fileNames(1:16));
 % save to file (!use gcf to save colormap)
 fig = gcf;
 removeToolbarExplorationButtons(fig);
-filename =  'montage.png';
+filename =  'newMontage.png';
 
 % save within sampleOutputs folder
 baseFileName = sprintf(filename, fig);
