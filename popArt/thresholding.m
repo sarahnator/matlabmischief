@@ -16,4 +16,4 @@ colormap(colormap(op));
 
 % save to file (!use gcf to save colormap)
 fig = gcf;
-exportgraphics(fig, 'out.png');
+exportgraphics(fig, 'out13.png');
