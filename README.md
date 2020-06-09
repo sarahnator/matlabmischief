@@ -1,5 +1,5 @@
 # matlabmischief
 
 ## popArt
-![ ](popArt/sampleOuputs/montage.png)
+![ ](popArt/sampleOutputs/montage.png)
 

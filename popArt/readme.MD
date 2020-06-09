@@ -1,3 +1,3 @@
 # matlab pop art!
 
-![ ](sampleOuputs/montage.png)
+![ ](sampleOutputs/montage.png)
