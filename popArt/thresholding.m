@@ -24,6 +24,6 @@ filename = op + '.png';
 
 % save within sampleOutputs folder
 baseFileName = sprintf(filename, fig);
-fullFileName = fullfile('sampleOuputs', baseFileName);
+fullFileName = fullfile('sampleOutputs', baseFileName);
 exportgraphics(fig, fullFileName);
 
