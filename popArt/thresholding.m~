@@ -19,11 +19,8 @@ fig = gcf;
 removeToolbarExplorationButtons(fig);
 filename = op + '.png';
 
-% save withing cwd
-% exportgraphics(fig, 'test.png');
+baseFileName = sprintf(filename, tr);
+fullFileName = fullfile(folder, baseFileName);
+imwrite(fig, fullFileName);
 
-% save within sampleOutputs folder
-baseFileName = sprintf(filename, fig);
-fullFileName = fullfile('sampleOuputs', baseFileName);
-exportgraphics(fig, fullFileName);
-
+exportgraphics(fig, 'test.png');
