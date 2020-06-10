@@ -11,7 +11,7 @@ my_matrix = [1 2; 3 4] //2x2
 ```
 
 ## structs
-- obj that contain information about some type of thing
+- obj that contains info abt some type of thing
 ``` matlab
 //create struct by specifying field(s)
 person.name = 'sarah';
@@ -29,10 +29,8 @@ person.contact.email = 'sarahett@usc.edu'
 ```
 
 ## cells
-- contain arbitrary fields, like an array of indices that don't have to be numbers
-- an array of structs
-- can contain different types of objects
-
+- can contain arbitrary fields, like an array of indices that don't have to be numbers
+- can be an array of structs or different types of objects
 ``` matlab
 my_cell{1} = 'hello world';
 my_cell{'A'} = [1, 2; 3 4];
