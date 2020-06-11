@@ -3,9 +3,10 @@
 % play back
 sound(d,fs)
 
-% flip sound sample
+% flip sound sample / save
 d2 = flipud(d);
 sound(d2,fs)
+audiowrite('wizard_reverse.wav', d2, fs);
 
 figure
 hold on
