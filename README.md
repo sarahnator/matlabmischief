@@ -3,6 +3,7 @@
 ## popArt
 ![ ](popArt/sampleOutputs/montage.png)
 
-## basic/audio processing
+## audio processing
+### reverse wav file
 ![ ](audioProcessing/reverse/reverse.jpg)
 
