@@ -4,6 +4,18 @@
 - size(x)
 - help xlsread //read docs
 
+## for loops
+```matlab
+for i =[1 2 3 4 20 7] or for
+disp(i)
+end
+
+for i=1:10
+disp(i)
+end
+```
+
+
 ## matrices
 ``` matlab
 my_matrix = [1:10] //1x10 
