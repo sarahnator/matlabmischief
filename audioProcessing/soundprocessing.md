@@ -34,7 +34,7 @@ d3 = fliplr(d); //flip channels
 ```
 
 ## test
-![ ](reverse.jpg)
+![ ](reverse/reverse.jpg)
 
 
 ## fs
