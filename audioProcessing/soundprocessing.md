@@ -119,4 +119,4 @@ plot(real(fft(dlp))
 ```
 
 ## high pass filter
-
+implement sing filter()
