@@ -6,5 +6,5 @@
 ## Audio Processing
 ### Reverse wav file
 ![ ](audioProcessing/reverse/reverse.jpg)
-### horizontal concatenation
+### horCat
 ![ ](audioProcessing/recording/horCat.png)
